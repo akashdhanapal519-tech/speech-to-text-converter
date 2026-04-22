@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech to Text Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎤 Speech to Text</h1>
+
+    <!-- Language Selector -->
+    <select id="language">
+        <option value="en-US">English</option>
+        <option value="ta-IN">Tamil</option>
+        <option value="hi-IN">Hindi</option>
+        <option value="te-IN">Telugu</option>
+        <option value="kn-IN">Kannada</option>
+    </select>
+
+    <!-- Button -->
+    <button id="startBtn" onclick="startListening()">Start Listening</button>
+
+    <!-- Output -->
+    <div class="output-box">
+        <p id="output">Click the button and start speaking...</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
